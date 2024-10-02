@@ -1,3 +1,9 @@
+* {
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 body {
   text-align: center;
 }
@@ -10,4 +16,54 @@ main {
 .procedimento {
   text-align: left;
   margin: auto;
+}
+
+.banner {
+  background-color: rgba(255, 240, 173, 0.445);
+  color: rgb(6, 92, 45);
+  border-top: 2px solid #f5e4ba;
+  padding-bottom: 3px;
+}
+
+.featured {
+  border-left: 3px solid #f1e1b7;
+  padding-left: 10px;
+}
+
+.featured > p {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+hr {
+  color: rgba(174, 250, 250, 0.637);
+  background: rgba(197, 255, 255, 0.637);
+  border: 0;
+  height: 1px;
+}
+
+.focaccia {
+  width: 100%;
+}
+
+.credits {
+  color: rgba(128, 128, 128, 0.582);
+  margin-top: 7px;
+  margin-bottom: 2em;
+}
+
+h2:first-of-type {
+  margin-top: 2.3em;
+}
+
+h2:last-of-type {
+  margin-top: 30px;
+}
+
+li {
+  padding: 7px;
+}
+
+.arancione {
+  color: orangered;
 }
