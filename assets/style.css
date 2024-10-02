@@ -1,13 +1,14 @@
 * {
   font-family: "Frank Ruhl Libre", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
+
 body {
   text-align: center;
 }
 
+video {
+  width: 100%;
+}
 main {
   width: 50vw;
   margin: auto;
@@ -66,4 +67,8 @@ li {
 
 .arancione {
   color: orangered;
+}
+
+a {
+  color: rgba(37, 155, 145, 0.733);
 }
